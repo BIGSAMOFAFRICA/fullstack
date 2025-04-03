@@ -1,7 +1,7 @@
 import './App.css'
 import axios from 'axios'
 function App() {
-  const url = 'http://localhost:5000/test'
+  const url = 'https://fullstack-server-three.vercel.app/test'
   const getInfo = () =>{
     axios.get(url)
     .then((res)=>{
